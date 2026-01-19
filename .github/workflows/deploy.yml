@@ -12,6 +12,7 @@ on:
       - "docusaurus.config.ts"
       - "package.json"
       - "pnpm-lock.yaml"
+      - ".github/workflows/**"
 
 permissions:
   contents: write
