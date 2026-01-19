@@ -33,7 +33,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "pt-br", "es"],
   },
 
   presets: [
@@ -71,6 +71,10 @@ const config: Config = {
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "Documentação",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
         },
       ],
     },
